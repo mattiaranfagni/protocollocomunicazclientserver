@@ -9,6 +9,10 @@ package com.mycompany.clientservercomunicazranfagni;
  *
  * @author studente
  */
-public class Interfaccia_Pacchetto {
+public class Pacchetto extends Packet{
+
+    public Pacchetto(int command, int opcode, int length_buffer, byte[] buffer, String checksum) {
+        super(command, opcode, length_buffer, buffer, checksum);
+    }
     
 }
